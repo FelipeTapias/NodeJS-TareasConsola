@@ -1,17 +1,13 @@
 const Tarea = require("./tarea");
 
-
+//Thi is a test comment
 
 class Tareas {
 
-    _listado = {};
+    _listado={};
 
     constructor() {
-        this._listado = {};
-    }
-
-    crearTarea(desc = '') {
-        const tarea = new Tarea(desc);
+        this._listado={};
     }
 
 }
